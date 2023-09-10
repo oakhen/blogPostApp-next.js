@@ -12,8 +12,8 @@ function Hero() {
           alt="profile goes here"
         />
       </div>
-      <h1>Hi I`&apos;`am Akki</h1>
-      <p>I`&apos;`m a web developer</p>
+      <h1>Hi I&apos;am Akki</h1>
+      <p>I&apos;m a web developer</p>
     </section>
   )
 }

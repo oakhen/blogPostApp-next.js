@@ -5,14 +5,16 @@ import { Fragment } from "react"
 
 function HomePages({ allPostsArry }) {
   return (
+    // <Contex.Provider>
     <Fragment>
       <Hero />
       <FeaturedPost posts={allPostsArry} />
     </Fragment>
+    // </Contex.Provider>
   )
 }
 export default HomePages
-
+// the backend code.
 export async function getStaticProps() {
   const allPostsArry = getFeaturedPosts()
 
